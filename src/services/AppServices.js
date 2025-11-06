@@ -1,9 +1,8 @@
-
 class AppServices {
-    MockFunction = () => {
+    static mockFunction(){
         console.log('Mock Function');
     };
 }
 
 
-module.exports = new AppServices();
+export default AppServices;
